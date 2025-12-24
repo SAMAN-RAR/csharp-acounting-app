@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Accounting_DBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Customers">
+    <Key>
+      <PropertyRef Name="CustomerID" />
+    </Key>
+    <Property Name="CustomerID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FullName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Mobile" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Address" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Name="CustomerImage" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Accountings" Relationship="Accounting_DBModel.FK_Accounting_Customers" FromRole="Customers" ToRole="Accounting" />
+  </EntityType>
+  <EntityContainer Name="Accounting_DBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Customers1" EntityType="Accounting_DBModel.Customers" />
+    <EntitySet Name="Accountings" EntityType="Accounting_DBModel.Accounting" />
+    <EntitySet Name="AccountinTypes" EntityType="Accounting_DBModel.AccountinType" />
+    <AssociationSet Name="FK_Accounting_AccountinTypes" Association="Accounting_DBModel.FK_Accounting_AccountinTypes">
+      <End Role="AccountinType" EntitySet="AccountinTypes" />
+      <End Role="Accounting" EntitySet="Accountings" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Accounting_Customers" Association="Accounting_DBModel.FK_Accounting_Customers">
+      <End Role="Customers" EntitySet="Customers1" />
+      <End Role="Accounting" EntitySet="Accountings" />
+    </AssociationSet>
+    <EntitySet Name="Logins" EntityType="Accounting_DBModel.Login" />
+  </EntityContainer>
+  <EntityType Name="Accounting">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CustomerID" Type="Int32" Nullable="false" />
+    <Property Name="TypeID" Type="Int32" Nullable="false" />
+    <Property Name="Amount" Type="Int32" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="800" FixedLength="false" Unicode="true" />
+    <Property Name="DateTime" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="AccountinType" Relationship="Accounting_DBModel.FK_Accounting_AccountinTypes" FromRole="Accounting" ToRole="AccountinType" />
+    <NavigationProperty Name="Customer" Relationship="Accounting_DBModel.FK_Accounting_Customers" FromRole="Accounting" ToRole="Customers" />
+  </EntityType>
+  <EntityType Name="AccountinType">
+    <Key>
+      <PropertyRef Name="TypeID" />
+    </Key>
+    <Property Name="TypeID" Type="Int32" Nullable="false" />
+    <Property Name="TypeTitle" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Accountings" Relationship="Accounting_DBModel.FK_Accounting_AccountinTypes" FromRole="AccountinType" ToRole="Accounting" />
+  </EntityType>
+  <Association Name="FK_Accounting_AccountinTypes">
+    <End Type="Accounting_DBModel.AccountinType" Role="AccountinType" Multiplicity="1" />
+    <End Type="Accounting_DBModel.Accounting" Role="Accounting" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccountinType">
+        <PropertyRef Name="TypeID" />
+      </Principal>
+      <Dependent Role="Accounting">
+        <PropertyRef Name="TypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Accounting_Customers">
+    <End Type="Accounting_DBModel.Customers" Role="Customers" Multiplicity="1" />
+    <End Type="Accounting_DBModel.Accounting" Role="Accounting" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customers">
+        <PropertyRef Name="CustomerID" />
+      </Principal>
+      <Dependent Role="Accounting">
+        <PropertyRef Name="CustomerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="Login">
+    <Key>
+      <PropertyRef Name="LoginID" />
+    </Key>
+    <Property Name="LoginID" Type="Int32" Nullable="false" />
+    <Property Name="UserName" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+  </EntityType>
+</Schema>

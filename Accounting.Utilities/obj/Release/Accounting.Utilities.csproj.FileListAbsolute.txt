@@ -1,0 +1,6 @@
+C:\Users\saman\Desktop\cSharp toplearn\Accounting\Accounting\Accounting.Utilities\bin\Release\Accounting.Utilities.dll
+C:\Users\saman\Desktop\cSharp toplearn\Accounting\Accounting\Accounting.Utilities\bin\Release\Accounting.Utilities.pdb
+C:\Users\saman\Desktop\cSharp toplearn\Accounting\Accounting\Accounting.Utilities\obj\Release\Accounting.Utilities.csproj.AssemblyReference.cache
+C:\Users\saman\Desktop\cSharp toplearn\Accounting\Accounting\Accounting.Utilities\obj\Release\Accounting.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\saman\Desktop\cSharp toplearn\Accounting\Accounting\Accounting.Utilities\obj\Release\Accounting.Utilities.dll
+C:\Users\saman\Desktop\cSharp toplearn\Accounting\Accounting\Accounting.Utilities\obj\Release\Accounting.Utilities.pdb

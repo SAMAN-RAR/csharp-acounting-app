@@ -1,0 +1,16 @@
+C:\Users\saman\Desktop\cSharp toplearn\Accounting\Accounting\Accounting.Business\bin\Release\Accounting.Business.dll
+C:\Users\saman\Desktop\cSharp toplearn\Accounting\Accounting\Accounting.Business\bin\Release\Accounting.Business.pdb
+C:\Users\saman\Desktop\cSharp toplearn\Accounting\Accounting\Accounting.Business\bin\Release\Accounting.DataLayer.dll
+C:\Users\saman\Desktop\cSharp toplearn\Accounting\Accounting\Accounting.Business\bin\Release\Accounting.Utilities.dll
+C:\Users\saman\Desktop\cSharp toplearn\Accounting\Accounting\Accounting.Business\bin\Release\Accounting.ViewModels.dll
+C:\Users\saman\Desktop\cSharp toplearn\Accounting\Accounting\Accounting.Business\bin\Release\EntityFramework.dll
+C:\Users\saman\Desktop\cSharp toplearn\Accounting\Accounting\Accounting.Business\bin\Release\Accounting.DataLayer.pdb
+C:\Users\saman\Desktop\cSharp toplearn\Accounting\Accounting\Accounting.Business\bin\Release\Accounting.DataLayer.dll.config
+C:\Users\saman\Desktop\cSharp toplearn\Accounting\Accounting\Accounting.Business\bin\Release\Accounting.Utilities.pdb
+C:\Users\saman\Desktop\cSharp toplearn\Accounting\Accounting\Accounting.Business\bin\Release\Accounting.ViewModels.pdb
+C:\Users\saman\Desktop\cSharp toplearn\Accounting\Accounting\Accounting.Business\bin\Release\EntityFramework.xml
+C:\Users\saman\Desktop\cSharp toplearn\Accounting\Accounting\Accounting.Business\obj\Release\Accounting.Business.csproj.AssemblyReference.cache
+C:\Users\saman\Desktop\cSharp toplearn\Accounting\Accounting\Accounting.Business\obj\Release\Accounting.Business.csproj.CoreCompileInputs.cache
+C:\Users\saman\Desktop\cSharp toplearn\Accounting\Accounting\Accounting.Business\obj\Release\Accounti.8B973F94.Up2Date
+C:\Users\saman\Desktop\cSharp toplearn\Accounting\Accounting\Accounting.Business\obj\Release\Accounting.Business.dll
+C:\Users\saman\Desktop\cSharp toplearn\Accounting\Accounting\Accounting.Business\obj\Release\Accounting.Business.pdb

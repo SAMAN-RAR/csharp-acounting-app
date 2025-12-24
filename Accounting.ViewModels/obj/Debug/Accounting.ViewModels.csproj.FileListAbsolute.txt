@@ -1,0 +1,6 @@
+C:\Users\saman\Desktop\cSharp toplearn\Accounting\Accounting\Accounting.ViewModels\bin\Debug\Accounting.ViewModels.dll
+C:\Users\saman\Desktop\cSharp toplearn\Accounting\Accounting\Accounting.ViewModels\bin\Debug\Accounting.ViewModels.pdb
+C:\Users\saman\Desktop\cSharp toplearn\Accounting\Accounting\Accounting.ViewModels\obj\Debug\Accounting.ViewModels.csproj.AssemblyReference.cache
+C:\Users\saman\Desktop\cSharp toplearn\Accounting\Accounting\Accounting.ViewModels\obj\Debug\Accounting.ViewModels.csproj.CoreCompileInputs.cache
+C:\Users\saman\Desktop\cSharp toplearn\Accounting\Accounting\Accounting.ViewModels\obj\Debug\Accounting.ViewModels.dll
+C:\Users\saman\Desktop\cSharp toplearn\Accounting\Accounting\Accounting.ViewModels\obj\Debug\Accounting.ViewModels.pdb

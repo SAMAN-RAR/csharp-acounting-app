@@ -1,0 +1,14 @@
+C:\Users\saman\Desktop\cSharp toplearn\Accounting\Accounting\Accounting.DataLayer\bin\Release\Accounting.DataLayer.dll.config
+C:\Users\saman\Desktop\cSharp toplearn\Accounting\Accounting\Accounting.DataLayer\bin\Release\Accounting.DataLayer.dll
+C:\Users\saman\Desktop\cSharp toplearn\Accounting\Accounting\Accounting.DataLayer\bin\Release\Accounting.DataLayer.pdb
+C:\Users\saman\Desktop\cSharp toplearn\Accounting\Accounting\Accounting.DataLayer\bin\Release\Accounting.ViewModels.dll
+C:\Users\saman\Desktop\cSharp toplearn\Accounting\Accounting\Accounting.DataLayer\bin\Release\EntityFramework.dll
+C:\Users\saman\Desktop\cSharp toplearn\Accounting\Accounting\Accounting.DataLayer\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\saman\Desktop\cSharp toplearn\Accounting\Accounting\Accounting.DataLayer\bin\Release\Accounting.ViewModels.pdb
+C:\Users\saman\Desktop\cSharp toplearn\Accounting\Accounting\Accounting.DataLayer\bin\Release\EntityFramework.xml
+C:\Users\saman\Desktop\cSharp toplearn\Accounting\Accounting\Accounting.DataLayer\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\saman\Desktop\cSharp toplearn\Accounting\Accounting\Accounting.DataLayer\obj\Release\Accounting.DataLayer.csproj.AssemblyReference.cache
+C:\Users\saman\Desktop\cSharp toplearn\Accounting\Accounting\Accounting.DataLayer\obj\Release\Accounting.DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\saman\Desktop\cSharp toplearn\Accounting\Accounting\Accounting.DataLayer\obj\Release\Accounti.8EA99DEA.Up2Date
+C:\Users\saman\Desktop\cSharp toplearn\Accounting\Accounting\Accounting.DataLayer\obj\Release\Accounting.DataLayer.dll
+C:\Users\saman\Desktop\cSharp toplearn\Accounting\Accounting\Accounting.DataLayer\obj\Release\Accounting.DataLayer.pdb
